@@ -17,4 +17,3 @@ if data['status'] == 7:
     print('Short Link: ' + data['shortLink'])
 else : print(f'Something went wrong\nError Code {data["status"]}\nhttps://notes.io/qjye5')
 input()
-#{"url":{"status":7,"fullLink":"http:\/\/www.google.com","date":"2022-10-22","":"https:\/\/cutt.ly\/xasbxusb","title":"Google"}}
