@@ -2,8 +2,9 @@ import urllib
 import requests
 import json
 
+#TODO: past you cuttly api key here.
 key = ''
-url = 'www.google.com'#urllib.parse.quote(input('Type URL: '));
+url = urllib.parse.quote(input('Type URL: '));
 name = input('Custom Name: ')
 r = requests.get('https://cutt.ly/api/api.php?key={}&short={}&name={}'.format(key,url,name))
 
